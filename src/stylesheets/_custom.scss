@@ -22,8 +22,8 @@ $band: rgba(99, 99, 99, 0.603);
   background: linear-gradient($gradient, $gradient),
     url(../images/Savanna-Wallpaper-Design-HD-5234.jpg);
   position: absolute;
--webkit-box-sizing: border-box;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
       
 }
 
