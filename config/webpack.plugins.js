@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const WebpackBar = require('webpackbar');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const WebappWebpackPlugin = require('webapp-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
