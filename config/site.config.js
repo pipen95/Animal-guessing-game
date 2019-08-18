@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Animal guessing game',
+  site_name: 'Alphabet Animals',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A game for infants to learn letters and animals by showing pictures',
+  site_description: 'A game to teach Animals and letters to kids',
 
   // Your website's URL, used for sitemap
-  site_url: '',
+  site_url: 'alphabet-animals.netlify.com',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
