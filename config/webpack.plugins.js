@@ -10,7 +10,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const WebappWebpackPlugin = require('webapp-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const RobotstxtPlugin = require('robotstxt-webpack-plugin');
+const RobotstxtPlugin = require('robotstxt-webpack-plugin').default;
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 
 const config = require('./site.config');
