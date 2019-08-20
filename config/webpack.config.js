@@ -7,7 +7,8 @@ module.exports = {
   context: path.join(config.root, config.paths.src),
   entry: [
     path.join(config.root, config.paths.src, 'javascripts/scripts.js'),
-    path.join(config.root, config.paths.src, 'stylesheets/styles.scss'),
+    path.join(config.root, config.paths.src, 'stylesheets/styles.less'),
+    path.join(config.root, config.paths.src, 'stylesheets/styles.scss')
   ],
   output: {
     path: path.join(config.root, config.paths.dist),
